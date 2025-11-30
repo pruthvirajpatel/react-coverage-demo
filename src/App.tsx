@@ -1,8 +1,5 @@
 import React, { useState, useEffect } from "react";
 import Modal from "./components/Modal";
-import * as Unused from "./unused";
-
-const AUTO_TRIGGER = false;
 
 export default function App(): JSX.Element {
   const [time, setTime] = useState<string>("Not loaded");
@@ -23,14 +20,6 @@ export default function App(): JSX.Element {
     const module = await import("./components/LazyWidget");
     setWidget(() => module.default);
   }
-
-  useEffect(() => {
-    if (AUTO_TRIGGER) {
-      loadData();
-      showModal();
-      loadWidget();
-    }
-  }, []);
 
   return (
     <div>

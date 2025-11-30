@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App integration renders App correctly 1`] = `
+<div>
+  <div>
+    <h1>
+      React + TS Coverage Demo
+    </h1>
+    <button>
+      Open Modal
+    </button>
+    <button>
+      Load Data
+    </button>
+    <button>
+      Load Lazy Widget
+    </button>
+    <p>
+      Time: 
+      Not loaded
+    </p>
+  </div>
+</div>
+`;
+
+exports[`App integration renders App correctly 2`] = `
+<div>
+  <div>
+    <h1>
+      React + TS Coverage Demo
+    </h1>
+    <button>
+      Open Modal
+    </button>
+    <button>
+      Load Data
+    </button>
+    <button>
+      Load Lazy Widget
+    </button>
+    <p>
+      Time: 
+      Not loaded
+    </p>
+  </div>
+</div>
+`;

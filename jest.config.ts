@@ -15,7 +15,15 @@ const config: Config.InitialOptions = {
     "!src/**/*.d.ts"
   ],
   coverageDirectory: "coverage",
-  coverageProvider: "v8"
+  coverageProvider: "v8",
+  coverageThreshold: {
+    global: {
+      branches: 90,
+      functions: 90,
+      lines: 90,
+      statements: 90
+    }
+  }
 };
 
 export default config;
